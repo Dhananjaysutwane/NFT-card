@@ -1,0 +1,70 @@
+body {
+  background-color: rgba(4, 4, 30, 0.932);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.main-div {
+  width: 25%;
+  height: 90%;
+  border: 1px solid rgba(20, 1, 37, 0.667);
+  background-color: rgba(45, 42, 84, 0.265);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px rgba(20, 1, 37, 0.667);
+}
+.image img {
+  width: 90%;
+  border-radius: 10px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.heading {
+  margin: 0px 15px 0px 15px;
+  color: white;
+}
+.heading p {
+  color: rgba(255, 255, 255, 0.587);
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+#time {
+  color: rgba(255, 255, 255, 0.402);
+}
+#bitcoin {
+  color: aqua;
+}
+hr {
+  width: 90%;
+  color: rgb(26, 24, 24);
+}
+hr {
+  width: 90%;
+  color: rgb(29, 28, 28);
+}
+.profile img {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.profile span {
+  color: rgba(255, 255, 255, 0.425);
+}
+.profile {
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 15px;
+  height: 10%;
+}
